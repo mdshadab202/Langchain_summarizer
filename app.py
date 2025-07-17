@@ -69,14 +69,3 @@ else:
 
 
 
-
-# if groq_api_key and st.button("Test Groq API Key"):
-#     try:
-#         llm = ChatGroq(model="llama3-8b-8192", groq_api_key=groq_api_key)
-
-#         response = llm.invoke("Say hello!")
-#         st.success("✅ API key is working!")
-#         st.write("Groq LLM Response:", response)
-#     except Exception as e:
-#         st.error("❌ API key is invalid or there's a connection issue.")
-#         st.code(str(e))
