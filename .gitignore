@@ -2,3 +2,5 @@
 \myvenv
 \venv
 /venv
+\.env
+/.env
